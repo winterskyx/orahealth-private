@@ -14,6 +14,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void risk(View view)
+    {
+        Intent intent = new Intent(this, riskassessment.class);
+        startActivity(intent);
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
