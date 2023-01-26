@@ -62,14 +62,15 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="help"
                     android:orientation="vertical"
-                    android:padding="16dp"
-                    android:gravity="center">
-                    
+                    android:padding="16dp">
+
                     <ImageView
-                        android:src="@drawable/help"
                         android:layout_width="82dp"
-                        android:layout_height="82dp">
+                        android:layout_height="82dp"
+                        android:src="@drawable/help">
 
                     </ImageView>
 
@@ -77,11 +78,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:textColor="#000"
-                        android:text="HELP">
+                        android:text="HELP"
+                        android:textColor="#000">
 
                     </TextView>
-                    
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
